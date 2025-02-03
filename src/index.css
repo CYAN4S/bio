@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('./assets/display.woff2') format('woff2');
+}
+
+@theme {
+  --font-display: "Plus Jakarta Sans", "sans-serif";
+
+  --color-ourcyan-50: #eafbf9;
+  --color-ourcyan-100: #d9f7f5;
+  --color-ourcyan-200: #aaeee8;
+  --color-ourcyan-300: #7be5dc;
+  --color-ourcyan-400: #33d6c9;
+  --color-ourcyan-500: #26bfb3;
+  --color-ourcyan-600: #23aea3;
+  --color-ourcyan-700: #1e998f;
+  --color-ourcyan-800: #197b73;
+  --color-ourcyan-900: #125953;
+  --color-ourcyan-950: #0d403c;
+}

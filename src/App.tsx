@@ -1,4 +1,9 @@
 import type { Component } from "solid-js";
+import cyanLogo from "./assets/cyan.svg";
+import cyanWhiteLogo from "./assets/cyan4s.svg";
+import blueskyLogo from "./assets/bluesky.svg";
+import githubLogo from "./assets/github.svg";
+
 
 const App: Component = () => {
   return (
@@ -9,7 +14,7 @@ const App: Component = () => {
             <div class="flex flex-col items-center">
               <div class="w-48 h-48 bg-ourcyan-500 rounded-full mb-4 grid place-content-center">
                 <img
-                  src="src/assets/cyan4s.svg"
+                  src={cyanWhiteLogo}
                   alt="CYAN4S' Logo"
                   class="w-24 h-24"
                 />
@@ -42,7 +47,7 @@ const App: Component = () => {
                   class="flex-1 flex items-center gap-3 text-gray-500 hover:text-[#26BFB3]"
                 >
                   <img
-                    src="src/assets/cyan.svg"
+                    src={cyanLogo}
                     alt="CYAN4S' Logo"
                     class="w-8"
                   />
@@ -55,7 +60,7 @@ const App: Component = () => {
                   class="flex-1 flex items-center gap-3 text-gray-500 hover:text-[#1185FE]"
                 >
                   <img
-                    src="src/assets/bluesky.svg"
+                    src={blueskyLogo}
                     alt="Bluesky"
                     class="w-8"
                   />
@@ -65,7 +70,7 @@ const App: Component = () => {
                   href="https://github.com/CYAN4S"
                   class="flex-1 flex items-center gap-3 text-gray-500 hover:text-[#000000]"
                 >
-                  <img src="src/assets/github.svg" alt="GitHub" class="w-8" />
+                  <img src={githubLogo} alt="GitHub" class="w-8" />
                   <span class="text-xl">GitHub</span>
                 </a>
               </div>
